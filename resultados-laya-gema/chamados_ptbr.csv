@@ -1,0 +1,181 @@
+id,texto,categoria,tipo,particao
+CH001,"Fui cobrada duas vezes na fatura de setembro, preciso do estorno.",cobranca,direto,avaliacao
+CH002,O boleto deste mês veio com valor maior do que o contratado.,cobranca,direto,ajuste
+CH003,Quero a segunda via da fatura de outubro.,cobranca,direto,avaliacao
+CH004,Paguei o Pix ontem e o sistema ainda mostra a conta em aberto.,cobranca,direto,avaliacao
+CH005,"Apareceu uma taxa de R$ 19,90 que eu não reconheço no meu cartão.",cobranca,direto,ajuste
+CH006,Como faço para mudar a data de vencimento da minha fatura?,cobranca,direto,ajuste
+CH007,Preciso da nota fiscal do pagamento feito em agosto.,cobranca,direto,avaliacao
+CH008,O desconto prometido na renovação não foi aplicado na cobrança.,cobranca,direto,ajuste
+CH009,Quero trocar o cartão de crédito cadastrado para pagamento.,cobranca,direto,avaliacao
+CH010,Solicito reembolso da mensalidade cobrada após o período de teste.,cobranca,direto,avaliacao
+CH011,"A fatura veio em nome da empresa errada, preciso corrigir o CNPJ.",cobranca,direto,ajuste
+CH012,"Quero parcelar o valor em atraso, quais são as opções?",cobranca,direto,avaliacao
+CH013,"Não quero cancelar o plano, só preciso que estornem a cobrança duplicada.",cobranca,negacao,avaliacao
+CH014,"Não é problema de acesso, eu consigo entrar; o problema é que fui cobrado duas vezes.",cobranca,negacao,avaliacao
+CH015,"O aplicativo não está com erro nenhum, mas a fatura veio com um valor que não reconheço.",cobranca,negacao,avaliacao
+CH016,Não recebi o reembolso que vocês prometeram há quinze dias.,cobranca,negacao,avaliacao
+CH017,"Meu pedido chegou certinho, não tenho reclamação da entrega; quero apenas a nota fiscal da compra.",cobranca,negacao,ajuste
+CH018,Não autorizei essa renovação automática e quero o dinheiro de volta.,cobranca,negacao,ajuste
+CH019,Ainda não caiu o estorno do pagamento duplicado.,cobranca,negacao,ajuste
+CH020,Não consigo entender por que o valor da mensalidade subiu sem aviso.,cobranca,negacao,avaliacao
+CH021,"Não preciso de suporte técnico, preciso de um boleto atualizado.",cobranca,negacao,ajuste
+CH022,Não encerrem minha conta: só quero trocar a forma de pagamento para boleto.,cobranca,negacao,avaliacao
+CH023,"Fui cobrado depois de pedir o cancelamento, quero o valor de volta.",cobranca,ambiguo,ajuste
+CH024,"O pagamento foi debitado, mas o app mostrou erro e o pedido não foi confirmado.",cobranca,ambiguo,ajuste
+CH025,Paguei pelo frete expresso e o pedido chegou no prazo normal; quero a diferença.,cobranca,ambiguo,avaliacao
+CH026,"Minha conta foi bloqueada por falta de pagamento, mas a fatura está paga.",cobranca,ambiguo,avaliacao
+CH027,Cobraram a assinatura de um serviço que eu já tinha encerrado.,cobranca,ambiguo,avaliacao
+CH028,"O produto veio com defeito e quero o reembolso, não a troca.",cobranca,ambiguo,ajuste
+CH029,"Se não estornarem a cobrança duplicada até sexta, vou cancelar.",cobranca,ambiguo,avaliacao
+CH030,Recebi um e-mail de cobrança de uma conta que não é minha.,cobranca,ambiguo,avaliacao
+CH031,Esqueci minha senha e o e-mail de recuperação não chega.,acesso,direto,avaliacao
+CH032,Minha conta foi bloqueada após três tentativas de login.,acesso,direto,ajuste
+CH033,O código de verificação por SMS não chega no meu celular.,acesso,direto,ajuste
+CH034,Troquei de número e agora não consigo receber o código de dois fatores.,acesso,direto,avaliacao
+CH035,Quero alterar o e-mail de login da minha conta.,acesso,direto,avaliacao
+CH036,"Aparece ""usuário ou senha inválidos"", mas tenho certeza de que a senha está certa.",acesso,direto,ajuste
+CH037,"Acho que alguém entrou na minha conta, recebi alerta de acesso de outro estado.",acesso,direto,ajuste
+CH038,Como adiciono outro usuário com acesso à conta da empresa?,acesso,direto,avaliacao
+CH039,O link para redefinir a senha diz que expirou.,acesso,direto,avaliacao
+CH040,Não lembro qual e-mail usei para criar a conta.,acesso,direto,avaliacao
+CH041,Preciso remover o acesso de um funcionário que saiu da empresa.,acesso,direto,ajuste
+CH042,O login com Google parou de funcionar para minha conta.,acesso,direto,avaliacao
+CH043,"Não quero cancelar minha conta, só não consigo entrar nela desde ontem.",acesso,negacao,avaliacao
+CH044,"Não fui cobrada errado, o problema é que perdi o acesso à conta.",acesso,negacao,avaliacao
+CH045,"O app não está travando; ele abre normalmente, mas não aceita minha senha.",acesso,negacao,avaliacao
+CH046,Não recebo o código de verificação de jeito nenhum.,acesso,negacao,ajuste
+CH047,Ninguém da minha equipe consegue fazer login com as credenciais novas.,acesso,negacao,ajuste
+CH048,Não é a entrega que me preocupa: alguém trocou o e-mail da minha conta sem eu pedir.,acesso,negacao,avaliacao
+CH049,Não reconheço esse login feito às 3h da manhã na minha conta.,acesso,negacao,ajuste
+CH050,Não consigo redefinir a senha porque não tenho mais acesso ao e-mail antigo.,acesso,negacao,avaliacao
+CH051,"Não tenho o celular cadastrado comigo, como entro sem o segundo fator?",acesso,negacao,ajuste
+CH052,"Não precisa estornar nada; só desbloqueiem meu usuário, por favor.",acesso,negacao,avaliacao
+CH053,"Depois da atualização, o app pede login toda hora e não salva a sessão.",acesso,ambiguo,avaliacao
+CH054,"Quero encerrar o acesso do meu ex-sócio, mas manter a conta ativa.",acesso,ambiguo,avaliacao
+CH055,Minha conta foi suspensa e não sei se é por pagamento ou por segurança.,acesso,ambiguo,avaliacao
+CH056,Não consigo entrar para acompanhar meu pedido.,acesso,ambiguo,ajuste
+CH057,"Ao tentar entrar, dá erro de autenticação e volta para a tela inicial.",acesso,ambiguo,avaliacao
+CH058,Recebi um e-mail pedindo para confirmar minha senha; é golpe?,acesso,ambiguo,avaliacao
+CH059,Quero saber quem tem acesso às faturas da empresa.,acesso,ambiguo,ajuste
+CH060,Perdi o acesso e por isso não consegui pagar a fatura em dia.,acesso,ambiguo,ajuste
+CH061,O aplicativo fecha sozinho toda vez que abro a tela de configurações.,tecnico,direto,avaliacao
+CH062,O site retorna erro 500 quando tento gerar o relatório.,tecnico,direto,ajuste
+CH063,A exportação para Excel trava em 90% e não termina.,tecnico,direto,avaliacao
+CH064,As notificações pararam de chegar depois da última atualização.,tecnico,direto,ajuste
+CH065,O sistema está muito lento desde hoje de manhã.,tecnico,direto,ajuste
+CH066,A integração com a API devolve timeout em todas as chamadas.,tecnico,direto,avaliacao
+CH067,Os gráficos do painel aparecem em branco no Chrome.,tecnico,direto,ajuste
+CH068,"O upload de arquivos PDF falha com a mensagem ""formato não suportado"".",tecnico,direto,ajuste
+CH069,A sincronização entre o celular e o computador parou de funcionar.,tecnico,direto,avaliacao
+CH070,O botão de salvar não responde no formulário de cadastro.,tecnico,direto,avaliacao
+CH071,"Depois que atualizei o Android, o app não abre mais.",tecnico,direto,avaliacao
+CH072,O relatório mensal está mostrando dados duplicados.,tecnico,direto,avaliacao
+CH073,"Não quero cancelar nada, só preciso que o app pare de fechar sozinho.",tecnico,negacao,ajuste
+CH074,"Não é problema de senha: eu entro normalmente, mas a tela fica em branco depois.",tecnico,negacao,avaliacao
+CH075,Minha fatura está correta; o que não funciona é a geração do relatório.,tecnico,negacao,ajuste
+CH076,"O pedido não tem nada a ver com isso, o problema é o site que não carrega.",tecnico,negacao,avaliacao
+CH077,A exportação não funciona nem no Chrome nem no Firefox.,tecnico,negacao,avaliacao
+CH078,"Não consigo anexar arquivos maiores que 2 MB, sempre dá erro.",tecnico,negacao,ajuste
+CH079,Não aparece nenhum dado no painel desde a atualização.,tecnico,negacao,avaliacao
+CH080,Nenhuma das notificações push está chegando.,tecnico,negacao,avaliacao
+CH081,Não fui cobrado errado; o app é que mostra o saldo zerado por erro.,tecnico,negacao,avaliacao
+CH082,"Não estou pedindo reembolso, quero que corrijam o erro na emissão do relatório.",tecnico,negacao,ajuste
+CH083,"Tentei pagar, mas o botão de confirmar não funciona.",tecnico,ambiguo,avaliacao
+CH084,O rastreio do pedido mostra erro na página.,tecnico,ambiguo,avaliacao
+CH085,O app trava tanto que estou pensando em cancelar.,tecnico,ambiguo,ajuste
+CH086,"Depois de trocar a senha, o app começou a travar na abertura.",tecnico,ambiguo,avaliacao
+CH087,Não consigo emitir a segunda via porque a página dá erro.,tecnico,ambiguo,avaliacao
+CH088,O site fica fora do ar e não consigo acompanhar a entrega.,tecnico,ambiguo,avaliacao
+CH089,A tela de cadastro de novos usuários dá erro ao salvar.,tecnico,ambiguo,ajuste
+CH090,O sistema está lento e o suporte disse que é limitação do meu plano.,tecnico,ambiguo,ajuste
+CH091,Meu pedido está parado na transportadora há uma semana.,entrega,direto,avaliacao
+CH092,O código de rastreio não mostra nenhuma atualização.,entrega,direto,avaliacao
+CH093,O produto chegou quebrado.,entrega,direto,ajuste
+CH094,Recebi um item diferente do que comprei.,entrega,direto,avaliacao
+CH095,A entrega estava prevista para ontem e não chegou.,entrega,direto,avaliacao
+CH096,Quero trocar o endereço de entrega do pedido 4521.,entrega,direto,avaliacao
+CH097,Faltou um item no pacote que recebi.,entrega,direto,ajuste
+CH098,"O entregador marcou como entregue, mas não recebi nada.",entrega,direto,ajuste
+CH099,Quero trocar o tamanho da camiseta que chegou.,entrega,direto,avaliacao
+CH100,Qual é o prazo de entrega para Manaus?,entrega,direto,ajuste
+CH101,A caixa chegou aberta e com sinais de violação.,entrega,direto,avaliacao
+CH102,Preciso agendar a entrega para depois das 18h.,entrega,direto,ajuste
+CH103,"Não quero cancelar a compra, só quero saber quando o pedido vai chegar.",entrega,negacao,ajuste
+CH104,"Não preciso de reembolso, quero que enviem o item que faltou.",entrega,negacao,ajuste
+CH105,O pagamento já foi aprovado; o problema é que o pedido não saiu do centro de distribuição.,entrega,negacao,ajuste
+CH106,Ainda não recebi o pedido feito há dez dias.,entrega,negacao,avaliacao
+CH107,O pedido não chegou e o rastreio não atualiza.,entrega,negacao,avaliacao
+CH108,Não encontro a encomenda e o porteiro diz que não recebeu nada.,entrega,negacao,avaliacao
+CH109,Não é erro no app: o pedido realmente consta como devolvido ao remetente.,entrega,negacao,avaliacao
+CH110,Nenhum dos três volumes do pedido foi entregue.,entrega,negacao,ajuste
+CH111,Não era esse o modelo que eu pedi.,entrega,negacao,avaliacao
+CH112,"Não tenho problema com a conta, só quero mudar o endereço de entrega.",entrega,negacao,avaliacao
+CH113,O produto chegou com defeito; quero trocar por outro igual.,entrega,ambiguo,ajuste
+CH114,O pedido atrasou tanto que já não sei se ainda quero.,entrega,ambiguo,ajuste
+CH115,"Paguei o frete, mas o pedido ainda não foi enviado.",entrega,ambiguo,avaliacao
+CH116,Não consigo ver o status do pedido no app.,entrega,ambiguo,avaliacao
+CH117,O pedido chegou incompleto e o valor cobrado foi do pedido inteiro.,entrega,ambiguo,avaliacao
+CH118,Mudei de endereço e não sei se o pedido vai para o antigo.,entrega,ambiguo,avaliacao
+CH119,"A transportadora diz que o endereço está errado, mas ele confere com meu cadastro.",entrega,ambiguo,avaliacao
+CH120,Recebi duas unidades e só comprei uma.,entrega,ambiguo,ajuste
+CH121,Quero cancelar minha assinatura a partir do próximo mês.,cancelamento,direto,ajuste
+CH122,"Por favor, encerrem minha conta e apaguem meus dados.",cancelamento,direto,avaliacao
+CH123,Como faço para cancelar o plano anual?,cancelamento,direto,ajuste
+CH124,Desejo cancelar o pedido 7788 antes do envio.,cancelamento,direto,avaliacao
+CH125,Quero desistir da compra dentro do prazo de sete dias.,cancelamento,direto,avaliacao
+CH126,Cancelem a renovação automática do meu plano.,cancelamento,direto,ajuste
+CH127,Vou migrar para outro fornecedor e quero cancelar o contrato.,cancelamento,direto,ajuste
+CH128,Solicito o cancelamento da linha adicional.,cancelamento,direto,ajuste
+CH129,Quero cancelar o serviço de backup contratado no mês passado.,cancelamento,direto,avaliacao
+CH130,"Gostaria de encerrar a conta da empresa, que foi fechada.",cancelamento,direto,avaliacao
+CH131,"Peço o cancelamento imediato do contrato, conforme a cláusula de fidelidade.",cancelamento,direto,avaliacao
+CH132,Quero cancelar a assinatura premium.,cancelamento,direto,avaliacao
+CH133,"Não quero mais continuar com o plano; cancelem, por favor.",cancelamento,negacao,avaliacao
+CH134,Não tenho mais interesse no serviço e quero encerrar a assinatura.,cancelamento,negacao,ajuste
+CH135,Não é problema técnico nem de cobrança: eu simplesmente quero cancelar.,cancelamento,negacao,ajuste
+CH136,"Não quero trocar o produto, quero cancelar o pedido.",cancelamento,negacao,avaliacao
+CH137,Não renovem meu plano; quero encerrar no fim do ciclo.,cancelamento,negacao,avaliacao
+CH138,"Não preciso de desconto para ficar, quero cancelar mesmo.",cancelamento,negacao,avaliacao
+CH139,"Não tenho tempo para usar o serviço, então prefiro cancelar.",cancelamento,negacao,avaliacao
+CH140,"Não quero reembolso parcial, quero cancelar o contrato inteiro.",cancelamento,negacao,avaliacao
+CH141,"Nunca mais vou usar, encerrem minha conta.",cancelamento,negacao,ajuste
+CH142,"Não quero suporte técnico, quero o cancelamento da assinatura.",cancelamento,negacao,ajuste
+CH143,Quero cancelar e receber de volta o valor do mês.,cancelamento,ambiguo,avaliacao
+CH144,Quero cancelar porque o app vive travando.,cancelamento,ambiguo,ajuste
+CH145,Quero cancelar o pedido porque está atrasado demais.,cancelamento,ambiguo,ajuste
+CH146,"Quero reduzir meu plano para o básico ou cancelar, o que for mais barato.",cancelamento,ambiguo,avaliacao
+CH147,"Encerrem minha conta, pois não consigo mais acessá-la mesmo.",cancelamento,ambiguo,avaliacao
+CH148,Quero cancelar a compra e devolver o produto que chegou errado.,cancelamento,ambiguo,avaliacao
+CH149,Desisti: cancelem tudo e estornem o que foi cobrado.,cancelamento,ambiguo,avaliacao
+CH150,Quero cancelar o plano empresarial e manter só o individual.,cancelamento,ambiguo,ajuste
+CH151,"Oi, preciso de ajuda.",sem_informacao,insuficiente,ajuste
+CH152,Não está funcionando.,sem_informacao,insuficiente,ajuste
+CH153,"Bom dia, tenho um problema.",sem_informacao,insuficiente,avaliacao
+CH154,Isso de novo?!,sem_informacao,insuficiente,avaliacao
+CH155,Vocês podem me ligar?,sem_informacao,insuficiente,avaliacao
+CH156,Já falei com vocês ontem sobre aquilo.,sem_informacao,insuficiente,avaliacao
+CH157,Continua igual.,sem_informacao,insuficiente,ajuste
+CH158,Urgente!!!,sem_informacao,insuficiente,avaliacao
+CH159,"Não sei explicar, mas algo está errado.",sem_informacao,insuficiente,avaliacao
+CH160,Quero falar com um atendente.,sem_informacao,insuficiente,avaliacao
+CH161,O protocolo 3381 ainda não foi resolvido.,sem_informacao,insuficiente,avaliacao
+CH162,Segue o print em anexo.,sem_informacao,insuficiente,ajuste
+CH163,???,sem_informacao,insuficiente,ajuste
+CH164,"Por favor, verifiquem minha situação.",sem_informacao,insuficiente,avaliacao
+CH165,Não deu certo.,sem_informacao,insuficiente,avaliacao
+CH166,Oi,sem_informacao,insuficiente,avaliacao
+CH167,Alguém pode me responder?,sem_informacao,insuficiente,avaliacao
+CH168,Estou esperando há dias.,sem_informacao,insuficiente,ajuste
+CH169,Mesma coisa do chamado anterior.,sem_informacao,insuficiente,ajuste
+CH170,Tem como resolver isso hoje?,sem_informacao,insuficiente,ajuste
+CH171,Preciso de uma posição.,sem_informacao,insuficiente,ajuste
+CH172,Não entendi o que aconteceu.,sem_informacao,insuficiente,ajuste
+CH173,Teste,sem_informacao,insuficiente,avaliacao
+CH174,Vocês resolveram?,sem_informacao,insuficiente,avaliacao
+CH175,Quero fazer uma reclamação.,sem_informacao,insuficiente,ajuste
+CH176,Aconteceu de novo e não é a primeira vez.,sem_informacao,insuficiente,avaliacao
+CH177,"Olá, poderiam verificar?",sem_informacao,insuficiente,avaliacao
+CH178,Ainda não.,sem_informacao,insuficiente,avaliacao
+CH179,Estou muito insatisfeita.,sem_informacao,insuficiente,ajuste
+CH180,Me liga quando puder.,sem_informacao,insuficiente,avaliacao

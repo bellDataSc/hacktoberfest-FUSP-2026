@@ -1,0 +1,19 @@
+{
+  "checkpoint": "multilingual",
+  "laya_versao": "0.4.19",
+  "instrucao": "Qual equipe deve tratar este chamado de atendimento ao cliente?",
+  "categorias": {
+    "cobranca": "faturas, boletos, pagamentos, estornos, reembolsos e taxas",
+    "acesso": "login, senha, código de verificação, conta bloqueada e permissões de usuários",
+    "tecnico": "erros, falhas, lentidão e travamentos do aplicativo, do site ou de integrações",
+    "entrega": "pedidos, rastreio, atrasos, produtos danificados ou errados, trocas e endereço de entrega",
+    "cancelamento": "pedido explícito para cancelar ou encerrar assinatura, plano, conta, contrato ou pedido",
+    "sem_informacao": "o texto não traz informação suficiente para saber qual equipe deve atender"
+  },
+  "temperatura": 3.3595324962572337,
+  "limiar": 1.01,
+  "erro_alvo": 0.1,
+  "revisar_sempre": [
+    "sem_informacao"
+  ]
+}

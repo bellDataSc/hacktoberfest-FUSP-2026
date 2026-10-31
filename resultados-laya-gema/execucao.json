@@ -1,0 +1,31 @@
+{
+  "ambiente": {
+    "data_utc": "2026-10-31T17:43:24+00:00",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.22.1",
+    "sistema": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "gpu": "Tesla T4",
+    "vram_gb": 14.6
+  },
+  "laya": {
+    "versao": "0.4.19",
+    "checkpoint": "multilingual",
+    "device": "cuda",
+    "precisao": "torch.float16",
+    "gpu_pico_mb": 1500,
+    "repo": "convaiinnovations/laya-multilingual",
+    "sha": "1720e3e3357cfe1e281542e223f8273b0890ca34",
+    "licenca": "apache-2.0"
+  },
+  "gemma": {
+    "modelo": "google/gemma-4-E2B-it",
+    "precisao": "torch.float16",
+    "device": "cuda:0",
+    "decodificacao": "gulosa, sem raciocínio",
+    "gpu_pico_mb": 9783,
+    "repo": "google/gemma-4-E2B-it",
+    "sha": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+    "licenca": "apache-2.0"
+  }
+}
