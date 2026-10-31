@@ -13,6 +13,10 @@
   <img src="resultados/destaque.png" width="100%" alt="Acurácia, latência e política de revisão humana do Laya e do Gemma">
 </p>
 
+https://colab.research.google.com/drive/1_0VuGQYuofT9A88e8dbF5bX2-Oo_qdu-#scrollTo=62859e5f
+
+https://hacktoberfest-fusp-2026-hhorhcbsxjrqqmjv249swk.streamlit.app/
+
 Coloquei dois modelos abertos para triar os mesmos 180 chamados de atendimento em português, com negação, ambiguidade e chamados sem informação. Quero saber quais chamados a IA pode decidir sozinha e quais precisam de uma pessoa, e respondo com números que eu medi.
 
 ------------------------------------------
