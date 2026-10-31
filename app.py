@@ -7,16 +7,20 @@ import pandas as pd
 import streamlit as st
 
 PASTA = Path(__file__).parent
-POLITICA = PASTA / "resultados" / "politica_laya.json"
+CAMINHOS = [PASTA / "resultados-laya-gema" / "politica_laya.json", PASTA / "resultados" / "politica_laya.json"]
 
 st.set_page_config(page_title="Triagem com Laya", layout="wide")
 st.title("Triagem de chamados: a IA decide ou uma pessoa revisa?")
 st.caption("Construí esta triagem com o Laya e uma política de revisão humana que calibrei no meu notebook. bel - para o hackathon com a FLUSP")
 
-if not POLITICA.exists():
-    st.error("Ainda não encontrei resultados/politica_laya.json. Eu gero esse arquivo rodando o notebook Laya_vs_Gemma.ipynb.")
-    st.stop()
-politica = json.loads(POLITICA.read_text(encoding="utf-8"))
+encontrado = next((c for c in CAMINHOS if c.exists()), None)
+if encontrado:
+    politica = json.loads(encontrado.read_text(encoding="utf-8"))
+else:
+    enviado = st.file_uploader("Não encontrei o politica_laya.json no repositório. Envio aqui o arquivo que o meu notebook gerou.", type="json")
+    if enviado is None:
+        st.stop()
+    politica = json.loads(enviado.read())
 rotulos = list(politica["categorias"])
 
 
