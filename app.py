@@ -71,13 +71,19 @@ with lote:
         if "texto" not in entrada.columns:
             st.error("Preciso de uma coluna texto no CSV.")
             st.stop()
+        entrada = entrada.rename(columns={"categoria": "referencia"})
         with st.spinner(f"Estou triando {len(entrada)} chamados..."):
             saida = pd.DataFrame([{k: v for k, v in triar(str(t)).items() if k != "probs"} for t in entrada.texto])
+        entrada = entrada.drop(columns=[c for c in saida.columns if c in entrada.columns])
         saida = pd.concat([entrada.reset_index(drop=True), saida], axis=1)
         auto = saida.acao == "automatico"
-        m1, m2 = st.columns(2)
+        m1, m2, m3 = st.columns(3)
         m1.metric("Automatizei", f"{auto.sum()} de {len(saida)}", f"{auto.mean():.0%}", delta_color="off")
         m2.metric("Mandei para revisão", int((~auto).sum()))
+        if "referencia" in saida.columns:
+            acerto = saida.categoria == saida.referencia
+            m3.metric("Acertei", f"{acerto.sum()} de {len(saida)}", f"{int((auto & ~acerto).sum())} erros automatizados",
+                      delta_color="off")
         st.bar_chart(saida.groupby(["categoria", "acao"]).size().unstack(fill_value=0), stack=True, height=260)
-        st.dataframe(saida, hide_index=True, use_container_width=True)
+        st.dataframe(saida, hide_index=True, width="stretch")
         st.download_button("Baixar a minha triagem", saida.to_csv(index=False).encode("utf-8"), "triagem.csv", "text/csv")
