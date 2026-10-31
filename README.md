@@ -15,6 +15,11 @@
 
 Coloquei dois modelos abertos para triar os mesmos 180 chamados de atendimento em português, com negação, ambiguidade e chamados sem informação. Quero saber quais chamados a IA pode decidir sozinha e quais precisam de uma pessoa, e respondo com números que eu medi.
 
+------------------------------------------
+Ps: o Gemma acerta mais e tem escores mais úteis. O Laya é cerca de 70 vezes mais rápido e usa cerca de 6,5 vezes menos memória. Isso foi medido em chamados sintéticos e curtos.
+--------------------------------------------
+
+
 ```mermaid
 flowchart LR
     A["Chamado"] --> B["Laya<br/>uma passada, sem gerar texto"]
